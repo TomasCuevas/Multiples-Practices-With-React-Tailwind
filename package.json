@@ -1,0 +1,40 @@
+{
+  "name": "multiples-practices-with-react-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "advice-generator-app-main",
+    "intro-section-with-dropdown-navigation",
+    "nft-preview-card",
+    "product-preview-card",
+    "stats-preview-card",
+    "sunnyside-agency-landing-page"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint --fix . --ext .js,.jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomasCuevas/Multiples-Practices-With-React-Tailwind.git"
+  },
+  "keywords": [],
+  "author": "Tomas Cuevas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomasCuevas/Multiples-Practices-With-React-Tailwind/issues"
+  },
+  "homepage": "https://github.com/TomasCuevas/Multiples-Practices-With-React-Tailwind#readme",
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.1",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13"
+  }
+}

@@ -1,17 +1,17 @@
-import React from "react";
+import React from 'react';
 
 export const CardCreator = () => {
   return (
     <section>
-      <div className="flex flex-row gap-4 items-center">
+      <div className="flex flex-row items-center gap-4">
         <img
           src="image-avatar.png"
           alt="avatar-img"
-          className="rounded-full border border-white h-10"
+          className="h-10 rounded-full border border-white"
         />
-        <p className="text-[#8BACD9] font-light">
-          Creation of{" "}
-          <span className="text-white font-normal">Jules Wyvern</span>
+        <p className="font-light text-[#8BACD9]">
+          Creation of{' '}
+          <span className="font-normal text-white">Jules Wyvern</span>
         </p>
       </div>
     </section>

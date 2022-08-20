@@ -7,16 +7,16 @@ export const GraphicDesign = () => {
           srcSet="desktop/image-graphic-design.jpg"
         />
         <img
-          className="object-cover w-full"
+          className="w-full object-cover"
           src="mobile/image-graphic-design.jpg"
           alt="img"
         />
       </picture>
-      <div className="absolute bottom-0 flex flex-col items-center w-11/12 gap-5 py-10 m-auto left-2/4 -translate-x-2/4">
-        <h2 className="text-3xl 2xl:text-5xl font-bold tracking-[2px] text-center text-emerald-900">
+      <div className="absolute bottom-0 left-2/4 m-auto flex w-11/12 -translate-x-2/4 flex-col items-center gap-5 py-10">
+        <h2 className="text-center text-3xl font-bold tracking-[2px] text-emerald-900 2xl:text-5xl">
           Graphic Design
         </h2>
-        <p className="py-5 max-w-[400px] lg:text-lg  font-medium text-center text-emerald-900">
+        <p className="max-w-[400px] py-5 text-center  font-medium text-emerald-900 lg:text-lg">
           Great design makes you memorable. We deliver artwork that underscores
           your brand message and captures potential clients' attention.
         </p>

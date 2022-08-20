@@ -1,22 +1,22 @@
 export const App = () => {
   return (
-    <main className="w-screen h-screen py-16 flex justify-center items-center bg-amber-100">
-      <article className="w-11/12 max-w-sm sm:max-w-2xl flex flex-col sm:flex-row ">
-        <section className="w-full sm:w-2/4 min-h-full overflow-hidden">
+    <main className="flex h-screen w-screen items-center justify-center bg-amber-100 py-16">
+      <article className="flex w-11/12 max-w-sm flex-col sm:max-w-2xl sm:flex-row ">
+        <section className="min-h-full w-full overflow-hidden sm:w-2/4">
           <picture>
             <source
               media="(min-width: 640px)"
-              srcset="image-product-desktop.jpg"
+              srcSet="image-product-desktop.jpg"
             />
             <img
-              className="w-full h-full rounded-t-2xl sm:rounded-none sm:rounded-l-2xl sm:h-full object-cover"
+              className="h-full w-full rounded-t-2xl object-cover sm:h-full sm:rounded-none sm:rounded-l-2xl"
               src="image-product-mobile.jpg"
               alt="img"
             />
           </picture>
         </section>
-        <section className="w-full sm:w-2/4 sm:min-h-full p-4 sm:px-10 flex flex-col gap-4 rounded-b-2xl sm:rounded-none sm:rounded-r-2xl  bg-white">
-          <span className="uppercase tracking-widest text-zinc-400 text-xl font-mono">
+        <section className="flex w-full flex-col gap-4 rounded-b-2xl bg-white p-4 sm:min-h-full sm:w-2/4 sm:rounded-none sm:rounded-r-2xl  sm:px-10">
+          <span className="font-mono text-xl uppercase tracking-widest text-zinc-400">
             Perfume
           </span>
           <h3 className="text-4xl font-semibold">
@@ -28,15 +28,15 @@ export const App = () => {
             pariatur eiusmod aute commodo minim mollit aliquip sint dolor aliqua
             amet.
           </p>
-          <div className="w-full flex flex-row items-center gap-4">
+          <div className="flex w-full flex-row items-center gap-4">
             <span className="text-4xl font-bold text-emerald-800 text-opacity-80">
               $149.99
             </span>
-            <span className="line-through text-slate-500 font-light">
+            <span className="font-light text-slate-500 line-through">
               $169.99
             </span>
           </div>
-          <div className="p-3 w-full flex flex-row justify-center items-center gap-2 rounded-lg bg-emerald-800 bg-opacity-80 cursor-pointer hover:bg-opacity-100">
+          <div className="flex w-full cursor-pointer flex-row items-center justify-center gap-2 rounded-lg bg-emerald-800 bg-opacity-80 p-3 hover:bg-opacity-100">
             <span className="text-5xl">
               <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
                 <path

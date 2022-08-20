@@ -7,16 +7,16 @@ export const Photography = () => {
           srcSet="desktop/image-photography.jpg"
         />
         <img
-          className="object-cover w-full"
+          className="w-full object-cover"
           src="mobile/image-photography.jpg"
           alt="img"
         />
       </picture>
-      <div className="absolute bottom-0 flex flex-col items-center w-11/12 gap-5 py-10 m-auto left-2/4 -translate-x-2/4">
-        <h2 className="text-3xl 2xl:text-5xl font-bold tracking-[2px] text-center text-cyan-900">
+      <div className="absolute bottom-0 left-2/4 m-auto flex w-11/12 -translate-x-2/4 flex-col items-center gap-5 py-10">
+        <h2 className="text-center text-3xl font-bold tracking-[2px] text-cyan-900 2xl:text-5xl">
           Photography
         </h2>
-        <p className="py-5 max-w-[400px] lg:text-lg font-medium text-center text-cyan-700">
+        <p className="max-w-[400px] py-5 text-center font-medium text-cyan-700 lg:text-lg">
           Increase your credibility by getting the most stunning, hight-quality
           photos that improve your business image.
         </p>
