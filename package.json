@@ -4,12 +4,7 @@
   "description": "",
   "main": "index.js",
   "workspaces": [
-    "advice-generator-app-main",
-    "intro-section-with-dropdown-navigation",
-    "nft-preview-card",
-    "product-preview-card",
-    "stats-preview-card",
-    "sunnyside-agency-landing-page"
+    "packages/*"
   ],
   "scripts": {
     "format": "prettier --write .",
